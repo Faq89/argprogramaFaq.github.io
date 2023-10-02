@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.querySelectorAll("nav ul li a");
     const sections = document.querySelectorAll("section");
+    const datosPersonales = document.getElementById("datos-personales");
+    datosPersonales.style.display = "block";
 
     navLinks.forEach((link) => {
         link.addEventListener("click", (e) => {
