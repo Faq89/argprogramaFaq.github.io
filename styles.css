@@ -42,13 +42,19 @@ nav ul li {
     text-transform: capitalize;
 }
 
+nav ul li:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
 nav ul li::before {
     content: "|"; 
     margin-right: 10px;
     color: white; 
 }
 
-nav ul li:last-child::after {
+nav ul li::after {
     content: "|"; 
     margin-left: 10px;
     color: white;
